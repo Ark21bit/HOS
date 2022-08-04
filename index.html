@@ -17,17 +17,17 @@
 			<div class="wrapper header_top_box ">
 				<div class="logo dark"><a href="#">HOS</a></div>
 				<nav class="dark nav_menu nav ">
-					<a href="#" class="text" title="adfasd">About</a>
-					<a href="#" class="text">Features</a>
-					<a href="#" class="text">Services</a>
-					<a href="#" class="text">Pricing</a>
-					<a href="#" class="text">Blog</a>
+					<a href="#About" class="text" >About</a>
+					<a href="#Features" class="text">Features</a>
+					<a href="#Services" class="text">Services</a>
+					<a href="#Pricing" class="text">Pricing</a>
+					<a href="#Blog" class="text">Blog</a>
 				</nav>
 				<button class="dark_btn_secundary">Contact</button>
 				<button class="btn_menu menu_open "></button>
 			</div>
 
-			<div class="component_text_img wrapper">
+			<div class="component_text_img wrapper" >
 				<div class="text dark">
 					<h5>Modern</h5>
 					<h1>Hosting Platform</h1>					
@@ -47,7 +47,7 @@
 				<a href="#"><img src="img/partner5.svg" alt=""></a>
 			</div>
 
-			<div class="component_text_img ">				
+			<div class="component_text_img " id="Features">				
 				<div class="img"><img src="img/pic2.webp" alt=""></div>
 				<div class="text ">
 					<h5>Features</h5>
@@ -72,7 +72,7 @@
 				</div>
 			</div>
 
-			<div class="component_text_img ">
+			<div class="component_text_img " id="Services">
 				<div class="text ">
 					<h5>Service</h5>
 					<h2>Wonderful Service</h2>					
@@ -118,7 +118,7 @@
 		</div>
 
 		<div class="wrapper">
-			<div class="component_text_img ">
+			<div class="component_text_img " id="About">
 				<div class="img"><img src="img/pic4.webp" alt=""></div>
 				<div class="text ">
 					<h5>About </h5>
@@ -156,6 +156,42 @@
 				</div>
 			</div>
 
+			<div class="slider"> 
+				<h5>Testimonials </h5>
+				<h2>What People Say About Us</h2>
+								   
+				<div class="testimonials" id="">
+					<div class="scroller">
+							<div class="item component_text_img">
+								<div class="img"><img src="img/pic6.webp" alt=""></div>
+								<div class="text ">
+									<p class="text_big">Hosting is a service that allows organizations and individuals to post a website or web page onto the Internet. A web host, or web hosting service provider, is a business that provides the technologies.</p>
+									<p class="text">Henk Fortuin<span class="text_gray"> SuperApp</span></p>
+								</div>	
+							</div>
+							<div class="item component_text_img">
+								<div class="img"><img src="img/pic6.webp" alt=""></div>
+								<div class="text ">
+									<p class="text_big">Hosting is a service that allows organizations and individuals to post a website or web page onto the Internet. A web host, or web hosting service provider, is a business that provides the technologies.</p>
+									<p class="text">Henk Fortuin<span class="text_gray"> SuperApp</span></p>
+								</div>	
+							</div>
+							<div class="item component_text_img">
+								<div class="img"><img src="img/pic6.webp" alt=""></div>
+								<div class="text ">
+									<p class="text_big">Hosting is a service that allows organizations and individuals to post a website or web page onto the Internet. A web host, or web hosting service provider, is a business that provides the technologies.</p>
+									<p class="text">Henk Fortuin<span class="text_gray"> SuperApp</span></p>
+								</div>	
+							</div>
+							
+					</div>      
+					<button class="btn_prev"></button>
+					<button class="btn_next"></button>	                  
+				</div>
+
+											
+		</div>
+
 			<div class="FAQ">
 				<h5>FAQ</h5>
 				<h2>Frequently Asked Questions</h2>
@@ -174,7 +210,7 @@
 				</div>
 			</div>
 
-			<div class="blog_news">				
+			<div class="blog_news" id="Blog">				
 				<h5>Blog & New</h5>
 				<h2>Learn Recent News and Blog</h2>							
 				<div class="card_box">
@@ -241,34 +277,115 @@
 				<div class="img"><img src="img/pic5.webp" alt=""></div>
 			</div>
 
-			<div class="Pricing">
-				<h5></h5>
-				<h2></h2>
+			<div class="Pricing" id="Pricing">
+				<h5>Pricing</h5>
+				<h2>Solution For All Your Hosting Needs</h2>
 				<div id="tabs">
 					<ul >
-					  <li><a href="#tabs-1" class="text">Nunc tincidunt</a></li>
-					  <li><a href="#tabs-2" class="text">Proin dolor</a></li>					  
+					  <li><a href="#tabs-1" class="text">Monthly</a></li>
+					  <li><a href="#tabs-2" class="text">Yearly</a></li>					  
 					</ul>
 					<div id="tabs-1">
-						<div class="text">
-							<p class="text_big">Start</p>
-							<p><span class="h2">$7</span>/ month</p>
-							<p>Buy a domain name without hosting.</p>
-							<ul class="text_gray">
-								<li>Web Hosting</li>
-								<li>Dedicated Server</li>
-								<li>Cloud Hosting</li>
-							</ul>
+						<div class="text_box active">
+							<div class="text">
+								<p class="text_big">Start</p>
+								<p><span class="h2">$7</span>/ month</p>
+								<p>Buy a domain name without hosting.</p>
+								<ul class="text_gray">
+									<li>Web Hosting</li>
+									<li>Dedicated Server</li>
+									<li>Cloud Hosting</li>
+								</ul>
+							</div>
+							<button class="light_btn_secundary">Get Started</button>
 						</div>
-					</div>	
-					<div id="tabs-2">
+
+						<div class="text_box ">
+							<div class="text">
+								<p class="text_big">Optimum</p>
+								<p><span class="h2">$15</span>/ month</p>
+								<p>Hosting provider to register your domain name.</p>
+								<ul class="text_gray">
+									<li>Web Hosting</li>
+									<li>Dedicated Server</li>
+									<li>Cloud Hosting</li>
+									<li>Clustered hosting</li>
+								</ul>
+							</div>
+							<button class="light_btn_secundary">Get Started</button>
+						</div>
+
+						<div class="text_box">
+							<div class="text">
+								<p class="text_big">Professional</p>
+								<p><span class="h2">99$</span>/ month</p>
+								<p>Buy it by paying a fee and registering it with a domain.</p>
+								<ul class="text_gray">
+									<li>Web Hosting</li>
+									<li>Dedicated Server</li>
+									<li>Cloud Hosting</li>
+									<li>Clustered hosting</li>
+									<li>Domain Name</li>
+								</ul>
+							</div>
+							<button class="light_btn_secundary">Get Started</button>
+						</div>
 						
-					</div>					
+					</div>
+
+					<div id="tabs-2">
+						<div class="text_box">
+							<div class="text">
+								<p class="text_big">Start</p>
+								<p><span class="h2">$70</span>/ yearly</p>
+								<p>Buy a domain name without hosting.</p>
+								<ul class="text_gray">
+									<li>Web Hosting</li>
+									<li>Dedicated Server</li>
+									<li>Cloud Hosting</li>
+								</ul>
+							</div>
+							<button class="light_btn_secundary">Get Started</button>
+						</div>
+
+						<div class="text_box">
+							<div class="text">
+								<p class="text_big">Optimum</p>
+								<p><span class="h2">$150</span>/ yearly</p>
+								<p>Hosting provider to register your domain name.</p>
+								<ul class="text_gray">
+									<li>Web Hosting</li>
+									<li>Dedicated Server</li>
+									<li>Cloud Hosting</li>
+									<li>Clustered hosting</li>
+								</ul>
+							</div>
+							<button class="light_btn_secundary">Get Started</button>
+						</div>
+
+						<div class="text_box">
+							<div class="text">
+								<p class="text_big">Professional</p>
+								<p><span class="h2">990$</span>/ yearly</p>
+								<p>Buy it by paying a fee and registering it with a domain.</p>
+								<ul class="text_gray">
+									<li>Web Hosting</li>
+									<li>Dedicated Server</li>
+									<li>Cloud Hosting</li>
+									<li>Clustered hosting</li>
+									<li>Domain Name</li>
+								</ul>
+							</div>
+							<button class="light_btn_secundary">Get Started</button>
+						</div>
+						
+					</div>
+										
 				  </div>
 			</div>
 
 
-			<div class="contact_us">
+			<div class="contact_us" id="Contact">
 				<h5>Contact Us</h5>
 				<h2>Every Website In The  World Need A Server</h2>
 				<p class="text_big">The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime.</p>
@@ -285,10 +402,10 @@
 									
 				<div class="dark menu">
 					<h5>Menu</h5>
-					<a href="#" class="text">About</a>					
-					<a href="#" class="text">Pricing</a>
-					<a href="#" class="text">Blog</a>
-					<a href="#" class="text">Contact</a>					
+					<a href="#About" class="text">About</a>					
+					<a href="#Pricing" class="text">Pricing</a>
+					<a href="#Blog" class="text">Blog</a>
+					<a href="#Contact" class="text">Contact</a>					
 				</div>				
 							
 				<div class="dark service">
@@ -316,7 +433,7 @@
 			</div>
 		</footer>		
 		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>  		
 		<script src="js/js.js"></script>		
 			
 	</body> 
