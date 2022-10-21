@@ -108,6 +108,7 @@ header{
 .testimonials .item {
     min-width: 100%;  
     max-width: 100%;  
+
     scroll-snap-align: start;      
     
 }  
@@ -119,10 +120,16 @@ header{
     background: url(../img/icon_next.svg);
     border: none;
     border-radius: 100px;
-    position: absolute;W
+    position: absolute;
     top: 50%;
     left: 105%;
     -webkit-tap-highlight-color: transparent;
+    filter: drop-shadow(0px 0px 7px transparent);
+    -webkit-filter: drop-shadow(0px 0px 7px transparent);
+}
+
+.relative{
+    position: relative;
 }
 
 .btn_prev{
@@ -136,6 +143,8 @@ header{
     top: 50%;
     left: -5%;
     -webkit-tap-highlight-color: transparent;
+    filter: drop-shadow(0px 0px 7px transparent);
+    -webkit-filter: drop-shadow(0px 0px 7px transparent);
 }
 
 .btn_next:hover, .btn_prev:hover{        
