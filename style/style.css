@@ -113,18 +113,20 @@ header{
 }  
 
 .btn_next{
+    position: relative;
     width: 48px;
     height: 48px;
     background: url(../img/icon_next.svg);
     border: none;
     border-radius: 100px;
-    position: absolute;
+    position: absolute;W
     top: 50%;
     left: 105%;
     -webkit-tap-highlight-color: transparent;
 }
 
 .btn_prev{
+    position: relative;
     width: 48px;
     height: 48px;
     background: url(../img/icon_prev.svg);
