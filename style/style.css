@@ -121,6 +121,7 @@ header{
     position: absolute;
     top: 50%;
     left: 105%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn_prev{
@@ -132,6 +133,7 @@ header{
     position: absolute;
     top: 50%;
     left: -5%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn_next:hover, .btn_prev:hover{        
