@@ -145,15 +145,23 @@ header{
     -webkit-tap-highlight-color: transparent;
     filter: drop-shadow(0px 0px 7px transparent);
     -webkit-filter: drop-shadow(0px 0px 7px transparent);
-    overflow: visible;
+    
 }
 
-.btn_next:hover, .btn_prev:hover{        
+.btn_prev:hover{        
     /* box-shadow: 0px 0px 20px 1px #ed3a4e; */
     filter: drop-shadow(0px 0px 7px black);
     -webkit-filter: drop-shadow(0px 0px 7px black);
-    overflow: visible;    
-    outline: 100px solid transparent;
+     overflow: visible;
+    
+}
+
+.btn_next:hover{        
+    /* box-shadow: 0px 0px 20px 1px #ed3a4e; */
+    filter: drop-shadow(0px 0px 7px black);
+    -webkit-filter: drop-shadow(0px 0px 7px black);
+     outline: 100px solid transparent;
+    
 }
 
 .flex{
